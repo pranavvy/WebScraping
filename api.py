@@ -9,7 +9,7 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
     'Accept': 'application/json, text/plain, */*',
     'x-nba-stats-token': 'true',
-    'Referer': 'http://stats.nba.com/player/',
+    'Referer': 'http://stats.nba.com/team/',
     'Connection': 'keep-alive',
     'x-nba-stats-origin': 'stats'
 }
@@ -34,7 +34,6 @@ data = get_data(url)
 # print rows of information with column names
 # to only take the first five rows of a frame, use print(data.head(5))
 print(data.head())
-
 
 # once you have the data, you can save it simply to a csv
 # to remove the index from the frame, indicate so as an argument

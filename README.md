@@ -13,15 +13,16 @@ User Defined Python Packages
 
 1. Include the __init__.py scirpts in each folder so that pyhton recoginizes the folder and scripts within your package.
   
-  File can be found at: https://github.com/sealneaward/uoit-machine-learning/tree/master/tutorials/scraping
+   File can be found at: https://github.com/sealneaward/uoit-machine-learning/tree/master/tutorials/scraping
 
 2. Create a setup.py script that includes the package information.
   
-  File can be found at: https://github.com/sealneaward/uoit-machine-learning/tree/master/tutorials/scraping
+   File can be found at: https://github.com/sealneaward/uoit-machine-learning/tree/master/tutorials/scraping
 
 3. Install your user defined packages.
 
    python setup.py build
+   
    python setup.py install
 
 

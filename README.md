@@ -11,7 +11,7 @@ If you are a student you can get a free license from JetBrain at: https://www.je
 
 User Defined Python Packages
 
-1. Include the ____init____.py scirpts in each folder so that pyhton recoginizes the folder and scripts within your package.
+1. Include the __init__.py scirpts in each folder so that pyhton recoginizes the folder and scripts within your package.
   
    File can be found at: https://github.com/sealneaward/uoit-machine-learning/tree/master/tutorials/scraping
 

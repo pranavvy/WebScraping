@@ -4,12 +4,12 @@ except ImportError:
     from distutils.core import setup
 
 config = {
-    'description': 'db',
+    'description': 'Web Scraping NBA Stats'
     'author': 'Pranav Yadav',
     'author_email': 'pranavyadav@live.com',
     'version': '0.0.1',
     'packages': find_packages(),
-    'name': 'db'
+    'name': 'pandas', 'requests'
 }
 
 setup(**config)

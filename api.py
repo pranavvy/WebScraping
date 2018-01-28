@@ -1,6 +1,5 @@
 # importing libraries
 import pandas as pd
-import matplotlib.pyplot as plt
 import requests
 
 # headers are often used to gain access to an otherwise locked API

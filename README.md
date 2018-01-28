@@ -11,40 +11,15 @@ If you are a student you can get a free license from JetBrain at: https://www.je
 User Defined Python Packages
 
 1. Include the __init__.py scirpts in each folder so that pyhton recoginizes the folder and scripts within your package.
-
-└───project
-│   └───package
-│       └───data
-|           |   utils.py
-|           |   __init__.py
-│       └───api
-|           |   scrape.py
-|           |   __init__.py
-|       |   __init__.py
-│   │   setup.py (package setup script)
+   File can be found at: https://github.com/sealneaward/uoit-machine-learning/tree/master/tutorials/scraping
 
 2. Create a setup.py script that includes the package information.
+   File can be found at: https://github.com/sealneaward/uoit-machine-learning/tree/master/tutorials/scraping
 
-try:
-    from setuptools import setup, find_packages
-except ImportError:
-    from distutils.core import setup
+3. Install your user defined packages.
 
-config = {
-    'description': 'package description',
-    'author': 'Neil Seward',
-    'author_email': 'neil.seward@uoit.ca',
-    'version': '0.0.1',
-    'packages': find_packages(),
-    'name': 'package_name'
-}
-
-setup(**config)
-
-3. Install your user defined packages, once you have a good setup.py script.
-
-python setup.py build
-python setup.py install
+   python setup.py build
+   python setup.py install
 
 
 Scraping:

@@ -1,15 +1,13 @@
 # WebScraping
 
-Setup instructions:
-
-PyCharm IDE Setup
+PyCharm IDE Setup:
 
 Download and install Pycharm from: https://www.jetbrains.com/pycharm/ 
 
 If you are a student you can get a free license from JetBrain at: https://www.jetbrains.com/student/
 
 
-User Defined Python Packages
+User Defined Python Packages:
 
 1. Include the __init__.py scirpts in each folder so that pyhton recoginizes the folder and scripts within your package.
   
